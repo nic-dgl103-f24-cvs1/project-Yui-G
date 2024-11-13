@@ -44,3 +44,97 @@
 
 - Roboto
 - Ubuntu
+
+## Website Content
+
+### Home Page
+
+#### Header
+
+- Logo
+- Main Navigation:
+  - Home
+  - About the farm
+  - Contact
+  - Gallery
+
+#### Hero Section
+
+- Heading: “Located in the heart of Black Creek, our small family farm is growing great things for our local community.”
+- Image: Use background image on original website
+
+#### What we do section
+
+- Heading: “What we do”
+- Paragraph: Use paragraph on original website
+- Image: Use1 or 2 pictures from Gallery
+
+#### About us Section
+
+- Heading: “About us”
+- Paragraph: Use paragraph on original website
+- Link to About the farm Page: "Read more"
+
+#### Call-to-Action
+
+- Heading: “Get in touch with us”
+- Link to Contact Page: "Contact"
+
+#### Footer
+
+- Logo
+- Heading: “Contact Us”
+- Paragraph: Address, Phone number, email
+- Navigation: Home, About, Contact, Gallery
+- Link to social media: Instagram, Facebok
+- Copyright Notice: “© [Year] [Company Name]. All rights reserved.”
+
+### About the farm Page
+
+#### Header
+
+- Same as on the Home Page
+
+#### Small Hero Section
+
+- Heading: “Kehler Vegetable Company”
+- Paragraph: Use paragraph on original website
+- Image: Picture from original website
+
+#### How we grow Section
+
+- Heading: “How we grow?”
+- Paragraph: Use current paragraph on original website
+- Image: Use current images on original website
+- No link here
+
+#### HOW TO SHOP WITH US Section
+
+- Heading: “How to shop with us?”
+- Paragraph: Use paragraph on original website
+- Link to contact page
+
+#### Footer
+
+- Same as on Home Page
+
+### Contact page
+
+#### Small hero section
+
+- Heading: “Get in touch with us!”
+- Image: Use a picture from gallery
+
+#### Form Section
+
+- Heading: “Feel free to contact us”
+- Form Column
+  - First name, Last name, Company, email, Phone, Message
+    Other Contact section
+- Heading: “Contact us at”
+- Paragraph: email, phone, address
+- Links to Instagram and Facebook
+
+#### Footer
+
+- Same as on Home Page
