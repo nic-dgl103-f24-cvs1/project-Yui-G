@@ -73,7 +73,7 @@
 #### About us Section
 
 - Heading: “About us”
-- Paragraph: Use paragraph on original website
+- Paragraph: Use paragraph on original website or Use AI to create some contents
 - Link to About the farm Page: "Read more"
 
 #### Call-to-Action
