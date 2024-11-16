@@ -60,7 +60,8 @@
 
 #### Hero Section
 
-- Heading: “Located in the heart of Black Creek, our small family farm is growing great things for our local community.”
+- Heading: kehler vegetable company
+- Paragraph: “Located in the heart of Black Creek, our small family farm is growing great things for our local community.”
 - Image: Use background image on original website
 
 #### What we do section
