@@ -55,8 +55,8 @@
 - Main Navigation:
   - Home
   - About the farm
-  - Contact
   - Gallery
+  - Contact
 
 #### Hero Section
 
@@ -66,7 +66,7 @@
 #### What we do section
 
 - Heading: “What we do”
-- Paragraph: Use paragraph on original website
+- Paragraph: Use paragraph on original website or Use AI to create some contents
 - Image: Use1 or 2 pictures from Gallery
 
 #### About us Section
@@ -83,9 +83,14 @@
 #### Footer
 
 - Logo
-- Heading: “Contact Us”
-- Paragraph: Address, Phone number, email
-- Navigation: Home, About, Contact, Gallery
+- Navigation:
+  - Home
+  - About the farm
+  - Gallery
+  - Contact
+    - Address
+    - Phone number
+    - email
 - Link to social media: Instagram, Facebok
 - Copyright Notice: “© [Year] [Company Name]. All rights reserved.”
 
@@ -104,7 +109,7 @@
 #### How we grow Section
 
 - Heading: “How we grow?”
-- Paragraph: Use current paragraph on original website
+- Paragraph: Use current paragraph on original website or Use AI to create some contents
 - Image: Use current images on original website
 - No link here
 
@@ -133,6 +138,7 @@
     Other Contact section
 - Heading: “Contact us at”
 - Paragraph: email, phone, address
+- Map
 - Links to Instagram and Facebook
 
 #### Footer
