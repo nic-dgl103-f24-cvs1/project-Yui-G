@@ -97,7 +97,7 @@ header li a {
 .hero h1 {
     padding-top: 300px;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
+    font-size: 3.0rem;
     text-transform: capitalize;
     color: white;
     align-items: center;
@@ -134,9 +134,36 @@ header li a {
 
 .about-us a {
     text-decoration: none;
+    text-transform: uppercase;
+    color: #4f772d;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+/*--------- CALL TO ACTION ---------*/
+
+.call-to-action {
+    width: 330px;
+    height: 30vh;
+    margin: auto;
+    background-color: #4f772d;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 3.0rem;
+}
+
+.call-to-action a {
+    text-decoration: none;
     background-color: #ecf39e;
     color: #132a13;
-    margin-top: 20px;
+    margin: 20px auto 0;
     padding: 10px 20px;
     border-radius: 20px;
 }
