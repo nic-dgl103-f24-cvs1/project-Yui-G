@@ -11,6 +11,11 @@ body {
     margin: 0;
 }
 
+h1,
+h2 {
+    margin: 0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -22,7 +27,8 @@ body {
     margin: auto;
 }
 
-/*-------- HEADER for mobile---------*/
+/*--- MOBILE ---*/
+/*-------- HEADER ---------*/
 header {
     display: flex;
     height: 80px;
@@ -74,7 +80,7 @@ header li a {
     align-items: flex-end;
 }
 
-/*------- HERO for mobile ---------*/
+/*------- HERO ---------*/
 
 .hero {
     background-image: url("images/farm-img.jpg");
@@ -89,7 +95,6 @@ header li a {
 }
 
 .hero h1 {
-    margin: 0;
     padding-top: 300px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
@@ -102,4 +107,13 @@ header li a {
     padding: 5px 20px;
     font-weight: 500;
     color: white;
+}
+
+/*-------- WHAT-WE-DO ---------*/
+
+.what-we-do {
+    background-color: #4f772d;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
 }

@@ -68,7 +68,6 @@
 
 - Heading: “What we do”
 - Paragraph: Use paragraph on original website or Use AI to create some contents
-- Image: Use1 or 2 pictures from Gallery
 
 #### About us Section
 
