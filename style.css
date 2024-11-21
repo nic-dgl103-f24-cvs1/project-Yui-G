@@ -145,8 +145,7 @@ header li a {
 
 .about-us a {
     width: 100px;
-    margin-right: 230px;
-    text-decoration: none;
+    margin-right: 240px;
     text-transform: uppercase;
     color: #4f772d;
     padding: 10px 0;
@@ -249,4 +248,67 @@ footer a {
 .disclaimer p {
     margin: 0;
     padding: 20px 0;
+}
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+    h2 {
+        font-size: 5.0rem;
+    }
+
+    p {
+        font-size: 3.0rem;
+    }
+
+    .content-width {
+        width: 1130px;
+    }
+
+    /*--- LARGE HEADER---*/
+    header {
+        height: 100px;
+    }
+
+    header img {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #nav-items {
+        display: flex;
+        padding-top: 25px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #nav-items li {
+        width: 20%;
+        text-align: center;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    /*--- LARGE HERO ---*/
+
+    .hero-contents {
+        width: 1130px;
+        margin: auto;
+    }
+
+    .hero-contents h1 {
+        font-size: 6.6rem;
+        padding-top: 450px;
+    }
+
+    .hero-contents p {
+        padding: 0 200px;
+    }
+
+
+
+
+
+
 }
