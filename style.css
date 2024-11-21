@@ -18,20 +18,20 @@ body {
 /*-------- UTILITY ---------*/
 
 .content-width {
-    width: 340px;
+    width: 330px;
     margin: auto;
 }
 
 /*-------- HEADER for mobile---------*/
 header {
     display: flex;
-    height: 60px;
+    height: 80px;
     background-color: #4f772d;
 }
 
 header img {
-    margin: auto 10px;
-    width: 50px;
+    margin: auto 20px;
+    width: 70px;
 }
 
 header nav {
@@ -41,7 +41,7 @@ header nav {
 }
 
 .toggle {
-    padding: 20px;
+    padding: 30px;
     align-self: flex-end;
     position: absolute;
 }
@@ -49,13 +49,13 @@ header nav {
 header ul {
     list-style-type: none;
     margin: 0;
-    padding: 40px 0 10px 0;
+    padding: 50px 0 10px 0;
     display: none;
 }
 
 header ul li {
-    width: 100px;
-    padding: 10px;
+    width: 120px;
+    padding: 15px;
     text-align: right;
     text-transform: uppercase;
     background-color: #4f772d;
@@ -78,6 +78,28 @@ header li a {
 
 .hero {
     background-image: url("images/farm-img.jpg");
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
 }
 
-.hero h1 {}
+.hero-contents {
+    width: 330px;
+    margin: auto;
+}
+
+.hero h1 {
+    margin: 0;
+    padding-top: 300px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    align-items: center;
+}
+
+.hero p {
+    padding: 5px 20px;
+    font-weight: 500;
+    color: white;
+}
