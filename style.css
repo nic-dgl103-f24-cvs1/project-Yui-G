@@ -1,0 +1,83 @@
+/*-------- GLOBAL STYLES ---------*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*-------- UTILITY ---------*/
+
+.content-width {
+    width: 340px;
+    margin: auto;
+}
+
+/*-------- HEADER for mobile---------*/
+header {
+    display: flex;
+    height: 60px;
+    background-color: #4f772d;
+}
+
+header img {
+    margin: auto 10px;
+    width: 50px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.toggle {
+    padding: 20px;
+    align-self: flex-end;
+    position: absolute;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px 0 10px 0;
+    display: none;
+}
+
+header ul li {
+    width: 100px;
+    padding: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #4f772d;
+}
+
+header li a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*------- HERO for mobile ---------*/
+
+.hero {
+    background-image: url("images/farm-img.jpg");
+}
+
+.hero h1 {}
