@@ -125,18 +125,30 @@ header li a {
     margin: auto;
     padding: 50px 0;
     color: #132a13;
+    text-align: center;
+}
+
+.about-us h2,
+.about-us p {
+    text-align: left;
+}
+
+.about-us img {
+    margin: 20px auto;
+    border-radius: 15px;
 }
 
 .about-us p {
     margin: 0;
-    padding: 20px 0 30px;
+    padding: 10px 0 30px;
 }
 
 .about-us a {
+    width: 100px;
+    margin-right: 230px;
     text-decoration: none;
     text-transform: uppercase;
     color: #4f772d;
-    margin-top: 20px;
     padding: 10px 0;
 }
 
@@ -166,4 +178,52 @@ header li a {
     margin: 20px auto 0;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+/*--------- FOTTER ---------*/
+
+footer {
+    margin-top: 40px;
+    background-color: #4f772d;
+    text-align: center;
+    color: #132a13;
+}
+
+footer img {
+    width: 100px;
+    margin: 20px auto;
+}
+
+footer nav {
+    padding-bottom: 20px;
+}
+
+footer ul {
+    padding-left: 0;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+footer li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.address-info {
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.address-info li {
+    padding: 0 60px;
+    color: white;
+}
+
+.address-info address {
+    color: #132a13;
 }
