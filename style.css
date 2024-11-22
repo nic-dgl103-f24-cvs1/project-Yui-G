@@ -351,40 +351,44 @@ footer address {
 
     /*--- LARGE FOOTER ---*/
     .footer-contents {
+        width: 1130px;
+        margin: auto;
+        text-align: left;
         display: flex;
     }
 
     footer img {
-        width: 200px;
-        margin: 40px;
+        width: 150px;
+        height: max-content;
+        margin: 20px;
     }
 
     footer nav {
-        width: 1130px;
+        width: 30%;
         margin: 0;
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        padding: 30px;
     }
 
     footer ul {
-        display: flex;
+        width: 100%;
+        margin-top: 0;
     }
 
     footer li {
-        width: 200px;
+
         font-size: 2.4rem;
     }
 
     footer address {
+        width: 40%;
+        margin-right: 10px;
         font-size: 2.0rem;
         line-height: 40px;
-        margin-left: 300px;
     }
 
     .social-media {
-        width: 30%;
-        margin-left: 300px;
+        width: 10%;
     }
 
     .copywrite,
