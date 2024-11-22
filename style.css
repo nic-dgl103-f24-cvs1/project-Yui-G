@@ -299,15 +299,54 @@ footer a {
 
     .hero-contents h1 {
         font-size: 6.6rem;
-        padding-top: 450px;
     }
 
     .hero-contents p {
         padding: 0 200px;
     }
 
+    /*--- LARGE WHAT WE DO ---*/
 
 
+    /*--- LARGE ABOUT US---*/
+    .about-us {
+        width: 1130px;
+        margin: auto;
+        overflow: auto;
+        padding: 60px 0;
+    }
+
+    .about-us img {
+        float: right;
+        width: calc(50% - 30px);
+    }
+
+    .about-us h2,
+    .about-us p {
+        width: calc(50% - 30px);
+    }
+
+    .about-us p {
+        padding-top: 20px;
+    }
+
+    .about-us a {
+        font-size: 2.4rem;
+        margin-right: 460px;
+    }
+
+    /*--- LARGE CALL TO ACTION ---*/
+    .call-to-action {
+        width: 1130px;
+    }
+
+    .call-to-action h2 {
+        font-size: 5.0rem;
+    }
+
+    .call-to-action a {
+        font-size: 3.0rem;
+    }
 
 
 
