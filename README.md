@@ -32,9 +32,9 @@
 
 ### Colors
 
-- 4f772d as primary color
+- 3D5C23 as primary color
 - 132a13 as secondary color
-- ecf39e as accent color
+- EAFBDF as accent color
 
 ### Images
 
