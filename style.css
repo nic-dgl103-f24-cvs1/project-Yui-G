@@ -243,11 +243,6 @@ footer address {
     margin: auto;
 }
 
-.copywrite p,
-.disclaimer p {
-    font-size: 1.6rem;
-}
-
 .disclaimer p {
     margin: 0;
     padding: 20px 0;
@@ -341,9 +336,6 @@ footer address {
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 /*-- INDEX.html --*/
 @media only screen and (min-width: 1200px) {
-    h1 {
-        font-size: 6.6rem;
-    }
 
     h2 {
         font-size: 5.0rem;
@@ -392,6 +384,12 @@ footer address {
     .hero-contents {
         width: 1130px;
         margin: auto;
+    }
+
+    .hero-contents h1,
+    .hero-about-contents h1 {
+        font-size: 6.6rem;
+
     }
 
     .hero-contents .hero-contents p {
@@ -452,7 +450,7 @@ footer address {
 
     footer img {
         width: 150px;
-        height: max-content;
+        height: 100%;
         margin: 20px;
     }
 
@@ -488,7 +486,38 @@ footer address {
     .copywrite,
     .disclaimer {
         width: 1130px;
+        margin: auto;
     }
+
+    /*-- ABOUT.html --*/
+    /*----- LARGE HERO-ABOUT -----*/
+    .hero-about-contents {
+        width: 1130px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .hero-about-contents p {
+        padding: 20px 40px;
+    }
+
+    /*----- LARGE HOW-WE-GROW -----*/
+
+    .how-we-grow {
+        width: 1130px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .how-we-grow iframe {
+        width: 560px;
+        padding-top: 40px;
+    }
+
+    .how-we-grow p {
+        line-height: 40px;
+    }
+
 
 
 }
