@@ -160,7 +160,7 @@ header li a {
 .call-to-action {
     width: 330px;
     height: 30vh;
-    margin: auto;
+    margin: 0 auto 30px;
     background-color: #3D5C23;
     color: white;
     border-radius: 15px;
@@ -186,7 +186,7 @@ header li a {
 /*--------- FOTTER ---------*/
 
 footer {
-    margin-top: 40px;
+
     background-color: #3D5C23;
     text-align: center;
     color: #132a13;
@@ -236,7 +236,7 @@ footer address {
 
 .copywrite,
 .disclaimer {
-    border-top: solid 1px white;
+    border-top: 1px solid white;
     color: white;
 
     width: 330px;
@@ -278,7 +278,7 @@ footer address {
 /*--------- HOW WE GROW --------*/
 .how-we-grow {
     width: 330px;
-    margin: 20px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -294,19 +294,63 @@ footer address {
 
 .how-we-grow iframe {
     width: 300px;
-    padding: 20px;
+    padding: 20px 20px 10px;
+}
+
+.how-we-grow h3 {
+    padding-top: 10px;
+    border-bottom: 2px solid #3D5C23;
+
 }
 
 .how-we-grow p {
     text-align: left;
     line-height: 25px;
+    color: #132a13;
+}
+
+/*--------- HOW-TO-SHOP ---------*/
+.how-to-shop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/farmstand.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    background-color: #3D5C23;
+    color: white;
+    line-height: 25px;
+}
+
+.shop-with-us {
+    width: 330px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.shop-with-us h2 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.shop-with-us a {
+    padding: 10px 30px;
+    background-color: #EAFBDF;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #132a13;
 }
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 /*-- INDEX.html --*/
 @media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 6.6rem;
+    }
+
     h2 {
         font-size: 5.0rem;
+    }
+
+    h3 {
+        font-size: 4.0rem;
     }
 
     p {
@@ -350,11 +394,7 @@ footer address {
         margin: auto;
     }
 
-    .hero-contents h1 {
-        font-size: 6.6rem;
-    }
-
-    .hero-contents p {
+    .hero-contents .hero-contents p {
         padding: 0 200px;
     }
 
