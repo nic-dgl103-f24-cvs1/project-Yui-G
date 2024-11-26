@@ -111,7 +111,7 @@
 
 - Heading: “How we grow?”
 - Paragraph: Use current paragraph on original website or Use AI to create some contents
-- Image: Use current images on original website
+- Video: Add video from youtube
 - No link here
 
 #### HOW TO SHOP WITH US Section

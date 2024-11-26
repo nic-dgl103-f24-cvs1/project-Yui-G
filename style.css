@@ -27,6 +27,7 @@ h2 {
     margin: auto;
 }
 
+/*-- INDEX.html --*/
 /*--- MOBILE ---*/
 /*-------- HEADER ---------*/
 header {
@@ -44,6 +45,7 @@ header nav {
     display: flex;
     width: 100%;
     flex-direction: column;
+    z-index: 1;
 }
 
 .toggle {
@@ -57,6 +59,7 @@ header ul {
     margin: 0;
     padding: 50px 0 10px 0;
     display: none;
+
 }
 
 header ul li {
@@ -250,7 +253,57 @@ footer address {
     padding: 20px 0;
 }
 
+/*-- ABOUT.html --*/
+/*--- MOBILE ---*/
+/*--------- HERO ---------*/
+.hero-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/vegetables.jpeg);
+    background-size: cover;
+    height: 40vh;
+    text-align: center;
+    color: white;
+}
+
+.hero-about h1 {
+    padding-top: 60px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3.0rem;
+    text-transform: capitalize;
+}
+
+.hero-about p {
+    padding: 0 20px;
+}
+
+/*--------- HOW WE GROW --------*/
+.how-we-grow {
+    width: 330px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.how-we-grow h2 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.how-we-grow h2,
+.how-we-grow h3 {
+    text-align: left;
+    color: #3D5C23;
+}
+
+.how-we-grow iframe {
+    width: 300px;
+    padding: 20px;
+}
+
+.how-we-grow p {
+    text-align: left;
+    line-height: 25px;
+}
+
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+/*-- INDEX.html --*/
 @media only screen and (min-width: 1200px) {
     h2 {
         font-size: 5.0rem;
