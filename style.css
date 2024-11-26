@@ -259,8 +259,13 @@ footer address {
     color: white;
 }
 
+.hero-about-contents {
+    width: 330px;
+    margin: auto;
+}
+
 .hero-about h1 {
-    padding-top: 60px;
+    padding-top: 40px;
     font-family: "Ubuntu", sans-serif;
     font-size: 3.0rem;
     text-transform: capitalize;
@@ -322,6 +327,10 @@ footer address {
 
 .shop-with-us h2 {
     font-family: "Ubuntu", sans-serif;
+}
+
+.shop-with-us p {
+    padding-bottom: 15px;
 }
 
 .shop-with-us a {
