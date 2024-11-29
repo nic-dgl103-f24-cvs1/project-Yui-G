@@ -14,11 +14,9 @@ body {
 h1,
 h2 {
     margin: 0;
-}
-
-h1 {
     font-family: "Ubuntu", sans-serif;
 }
+
 
 * {
     box-sizing: border-box;
@@ -224,7 +222,7 @@ footer a {
 footer address {
     width: 70%;
     margin: auto;
-    line-height: 25px;
+    line-height: 35px;
     color: white;
     text-align: left;
 }
@@ -284,10 +282,6 @@ footer address {
     text-align: center;
 }
 
-.how-we-grow h2 {
-    font-family: "Ubuntu", sans-serif;
-}
-
 .how-we-grow h2,
 .how-we-grow h3 {
     text-align: left;
@@ -324,10 +318,6 @@ footer address {
     width: 330px;
     margin: auto;
     padding: 20px 0;
-}
-
-.shop-with-us h2 {
-    font-family: "Ubuntu", sans-serif;
 }
 
 .shop-with-us p {
@@ -370,35 +360,75 @@ footer address {
     color: #3D5C23;
 }
 
+
 .contact-us form {
-    border: 1px solid #132a13;
-    border-radius: 10px;
+    border: none;
 }
 
 fieldset {
     border: 0;
     margin: 20px;
     padding: 0;
+
 }
 
 label {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     color: #3D5C23;
+    text-align: left;
+    padding: 5px;
 }
 
 input {
-    border-radius: 5px;
-    display: block;
+    border: 1px solid #132a13;
+    border-radius: 3px;
+    background-color: #faf8f7;
+    width: 100%;
 }
+
+textarea {
+    border-radius: 5px;
+    background-color: #faf8f7;
+    height: 100px;
+}
+
+.submit {
+    width: 50%;
+}
+
+.submit input {
+    padding: 5px 20px;
+    background-color: #3D5C23;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
 
 /*--------- CONTACT-US-AT ---------*/
 .contact-us-at {
-    width: 330px;
-    margin: auto;
+    background-color: #EAFBDF;
 }
 
-.contact-us-at iframe {
+.details {
+    width: 330px;
+    margin: auto;
+    padding: 30px 0;
+    color: #132a13;
+}
+
+.details h2 {
+    padding-bottom: 20px;
+}
+
+.details address {
+    line-height: 30px;
+}
+
+.details iframe {
     width: 100%;
+    padding-top: 20px;
 }
 
 
