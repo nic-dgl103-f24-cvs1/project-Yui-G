@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,38 +25,56 @@
                 <li><a href="#">gallery</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
-            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true" style="color:white;"></i></a>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" style="color:white;" aria-hidden="true"></i></a>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <div class="hero-contents">
-                <h1>kehler vegetable company</h1>
-                <p>Located in the heart of Black Creek, our small family farm is growing great things for our local
-                    community.</p>
-            </div>
+        <section class="hero-contact">
+            <h1>Get in touch with us</h1>
+            <p>Whether you have a question, feedback, or just want to say hello, we're here for you.</p>
+            <!-- Written by ChatGPT -->
         </section>
-        <section class="what-we-do">
-            <div class="content-width">
-                <h2>What we do</h2>
-                <p>Kehler Vegetable Company is a small mixed market farm of vegetables, berries and eggs from our
-                    pasture located on a 20 acre farm in the Comox Valley.
-                </p>
-            </div>
-        </section>
-        <section class="about-us">
-            <h2>About us</h2>
-            <img src="images/family.jpeg" width="300" alt="Picture of family">
-            <p>We are family-owned and operated farm nestled in the heart of Black Creek. We take pride in the
-                generations of hard work and dedication that have shaped our land into a thriving and sustainable
-                farm.
-            </p> <!-- Written by ChatGPT -->
-            <a href="about-farm.html">Read more
-            </a>
-        </section>
-        <section class="call-to-action">
-            <h2>Get in touch with us</h2>
-            <a href="contact.html">Contact</a>
+        <section>
+            <h2>Contact us</h2>
+            <form>
+                <fieldset class="customer-info">
+                    <label>
+                        Fist name
+                        <input type="text" name="firstname" required>
+                    </label>
+                    <label>
+                        last name
+                        <input type="text" name="lastname" required>
+                    </label>
+                    <label>
+                        Company
+                        <input type="text" name="company">
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" required>
+                    </label>
+                    <label>
+                        Phone number
+                        <input type="text" name="phonenumber">
+                    </label>
+                    <label>
+                        Message
+                        <input type="text" name="message">
+                    </label>
+                    <input class="btn btn-default" type="submit" name="submit" value="Submit">
+                </fieldset>
+            </form>
+            <h2>Contact us at</h2>
+            <address>
+                kehlervegetables@gmail.com<br>
+                (250) 202-3236<br>
+                8083 N Island Highway,Black Creek, BC,V9J1G7<br>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.1785899566253!2d-125.12726002368328!3d49.82486833220973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881ba4e1337c15%3A0x74d901532b56595!2s8083%20N%20Island%20Hwy%2C%20Comox-Strathcona%20C%2C%20BC!5e1!3m2!1sja!2sca!4v1732867292029!5m2!1sja!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
@@ -95,7 +113,6 @@
                 business owner.
             </p>
         </div>
-
     </footer>
 
     <script>
@@ -104,6 +121,7 @@
             element.classList.toggle("show-items");
         }
     </script>
+
 </body>
 
 </html>
