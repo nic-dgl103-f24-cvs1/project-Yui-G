@@ -30,11 +30,13 @@
     </header>
     <main>
         <section class="hero-contact">
-            <h1>Get in touch with us</h1>
-            <p>Whether you have a question, feedback, or just want to say hello, we're here for you.</p>
-            <!-- Written by ChatGPT -->
+            <div class="hero-contact-contents">
+                <h1>Get in touch with us</h1>
+                <p>Whether you have a question, feedback, or just want to say hello, we're here for you.</p>
+                <!-- Written by ChatGPT -->
+            </div>
         </section>
-        <section>
+        <section class="contact-us">
             <h2>Contact us</h2>
             <form>
                 <fieldset class="customer-info">
@@ -43,7 +45,7 @@
                         <input type="text" name="firstname" required>
                     </label>
                     <label>
-                        last name
+                        Last name
                         <input type="text" name="lastname" required>
                     </label>
                     <label>
@@ -62,9 +64,13 @@
                         Message
                         <input type="text" name="message">
                     </label>
-                    <input class="btn btn-default" type="submit" name="submit" value="Submit">
+                    <label>
+                        <input type="submit" name="submit" value="Submit">
+                    </label>
                 </fieldset>
             </form>
+        </section>
+        <section class="contact-us-at">
             <h2>Contact us at</h2>
             <address>
                 kehlervegetables@gmail.com<br>

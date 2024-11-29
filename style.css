@@ -16,6 +16,10 @@ h2 {
     margin: 0;
 }
 
+h1 {
+    font-family: "Ubuntu", sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -99,7 +103,6 @@ header li a {
 
 .hero h1 {
     padding-top: 300px;
-    font-family: "Ubuntu", sans-serif;
     font-size: 3.0rem;
     text-transform: capitalize;
     color: white;
@@ -266,7 +269,6 @@ footer address {
 
 .hero-about h1 {
     padding-top: 40px;
-    font-family: "Ubuntu", sans-serif;
     font-size: 3.0rem;
     text-transform: capitalize;
 }
@@ -339,6 +341,67 @@ footer address {
     text-decoration: none;
     color: #132a13;
 }
+
+/*-- CONTACT.html --*/
+/*--- MOBILE ---*/
+/*-------- HERO ---------*/
+.hero-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pumpkin.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh
+}
+
+.hero-contact-contents {
+    width: 330px;
+    margin: auto;
+    padding: 45px 0;
+    color: white;
+}
+
+/*--------- CONTACT-US ---------*/
+.contact-us {
+    width: 330px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.contact-us h2 {
+    color: #3D5C23;
+}
+
+.contact-us form {
+    border: 1px solid #132a13;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 0;
+    margin: 20px;
+    padding: 0;
+}
+
+label {
+    display: inline-block;
+    color: #3D5C23;
+}
+
+input {
+    border-radius: 5px;
+    display: block;
+}
+
+/*--------- CONTACT-US-AT ---------*/
+.contact-us-at {
+    width: 330px;
+    margin: auto;
+}
+
+.contact-us-at iframe {
+    width: 100%;
+}
+
+
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 /*-- INDEX.html --*/
