@@ -175,19 +175,24 @@ header li a:hover {
 .opening-hours {
     width: 330px;
     margin: 0 auto 40px;
+    padding: 30px 0;
+    border: 3px solid #3D5C23;
+    border-radius: 15px;
     text-align: center;
     color: #132a13;
 }
 
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 7px;
 }
 
 th,
 td {
     border-bottom: 2px solid #3D5C23;
-    padding: 10px 15px;
+    padding: 7px 5px;
     text-transform: capitalize;
+    width: 30%;
 }
 
 /*--------- CALL TO ACTION ---------*/
