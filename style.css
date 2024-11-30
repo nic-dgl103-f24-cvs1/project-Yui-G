@@ -171,6 +171,25 @@ header li a:hover {
     padding: 10px 0;
 }
 
+/*--------- OPENING-HOURS ---------*/
+.opening-hours {
+    width: 330px;
+    margin: 0 auto 40px;
+    text-align: center;
+    color: #132a13;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 2px solid #3D5C23;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
 /*--------- CALL TO ACTION ---------*/
 
 .call-to-action {
@@ -711,7 +730,6 @@ textarea {
     /*---- LARGE CONTACT ----*/
     .contact {
         display: flex;
-
     }
 
     .contact-us,
