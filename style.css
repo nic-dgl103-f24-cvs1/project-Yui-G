@@ -61,22 +61,37 @@ header ul {
     margin: 0;
     padding: 50px 0 10px 0;
     display: none;
-
 }
 
 header ul li {
     width: 120px;
-    padding: 15px;
     text-align: right;
     text-transform: uppercase;
     background-color: #3D5C23;
+    cursor: pointer;
 }
 
+header li:visited {
+    color: #132a13;
+}
+
+
+header li:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
+}
+
+
 header li a {
-    margin: 0;
-    padding: 0;
+    display: block;
+    padding: 15px;
     text-decoration: none;
     color: white;
+}
+
+header li a:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
 }
 
 .show-items {
@@ -184,6 +199,12 @@ header li a {
     border-radius: 20px;
 }
 
+.call-to-action a:hover {
+    background-color: #3D5C23;
+    border: 1px solid #EAFBDF;
+    color: white;
+}
+
 /*--------- FOTTER ---------*/
 
 footer {
@@ -215,8 +236,14 @@ footer li {
 }
 
 footer a {
+    padding: 10px 20px;
     text-decoration: none;
     color: white;
+}
+
+footer nav a:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
 }
 
 footer address {
@@ -239,7 +266,6 @@ footer address {
 .disclaimer {
     border-top: 1px solid white;
     color: white;
-
     width: 330px;
     margin: auto;
 }
@@ -332,6 +358,12 @@ footer address {
     color: #132a13;
 }
 
+.shop-with-us a:hover {
+    background-color: #132a13;
+    border: 1px solid #EAFBDF;
+    color: white;
+}
+
 /*-- CONTACT.html --*/
 /*--- MOBILE ---*/
 /*-------- HERO ---------*/
@@ -340,6 +372,10 @@ footer address {
     background-size: cover;
     background-position: center;
     height: 30vh
+}
+
+.hero-contact-contents h1 {
+    font-size: 3.0rem;
 }
 
 .hero-contact-contents {
@@ -403,6 +439,13 @@ textarea {
     border: none;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background-color: #EAFBDF;
+    border: 1px solid #132a13;
+    color: #132a13;
 }
 
 
