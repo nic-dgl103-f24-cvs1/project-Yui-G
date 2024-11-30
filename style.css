@@ -160,7 +160,7 @@ header li a:hover {
 
 .about-us p {
     margin: 0;
-    padding: 10px 0 30px;
+    padding: 10px 0;
 }
 
 .about-us a {
@@ -309,7 +309,7 @@ footer address {
 /*--------- HERO ---------*/
 
 .hero-about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/vegetables.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/vegetables.jpg);
     background-size: cover;
     height: 40vh;
     text-align: center;
@@ -365,7 +365,7 @@ footer address {
 /*--------- HOW-TO-SHOP ---------*/
 
 .how-to-shop {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/farmstand.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/farmstand.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 0;
@@ -402,7 +402,7 @@ footer address {
 /*-------- HERO ---------*/
 
 .hero-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pumpkin.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pumpkin.jpg);
     background-size: cover;
     background-position: center;
     height: 30vh
@@ -604,7 +604,6 @@ textarea {
     .about-us p {
         float: right;
         width: calc(50% - 30px);
-
     }
 
     .about-us p {
@@ -614,9 +613,7 @@ textarea {
 
     .about-us a {
         width: 150px;
-        float: right;
-        font-size: 2.4rem;
-        margin-right: 395px;
+        margin: 0;
     }
 
     /*--- LARGE OPENING-HOURS ---*/
