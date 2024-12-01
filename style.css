@@ -573,6 +573,9 @@ textarea {
     }
 
     /*--- LARGE HERO ---*/
+    .hero {
+        height: 100%;
+    }
 
     .hero-contents {
         width: 1130px;
@@ -584,8 +587,9 @@ textarea {
         padding-top: 350px;
     }
 
-    .hero-contents .hero-contents p {
-        padding: 0 200px;
+    .hero-contents p {
+        margin: 0;
+        padding: 30px 200px 50px;
     }
 
     /*--- LARGE WHAT WE DO ---*/
@@ -716,6 +720,9 @@ textarea {
 
     /*-- ABOUT-FARM.html --*/
     /*----- LARGE HERO-ABOUT -----*/
+    .hero-about {
+        height: 100%;
+    }
 
     .hero-about-contents {
         width: 1130px;
