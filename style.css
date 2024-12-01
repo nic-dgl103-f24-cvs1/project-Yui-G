@@ -75,12 +75,10 @@ header li:visited {
     color: #132a13;
 }
 
-
 header li:hover {
     background-color: #EAFBDF;
     color: #132a13;
 }
-
 
 header li a {
     display: block;
@@ -244,7 +242,6 @@ td {
 /*--------- FOTTER ---------*/
 
 footer {
-
     background-color: #3D5C23;
     text-align: center;
     color: #132a13;
@@ -330,7 +327,6 @@ footer address {
 
 .hero-about h1 {
     padding-top: 30px;
-
     text-transform: capitalize;
 }
 
@@ -438,7 +434,6 @@ footer address {
     color: #3D5C23;
 }
 
-
 .contact-us form {
     border: none;
 }
@@ -447,7 +442,6 @@ fieldset {
     border: 0;
     margin: 20px;
     padding: 0;
-
 }
 
 legend {
@@ -496,7 +490,6 @@ textarea {
     color: #132a13;
 }
 
-
 /*--------- CONTACT-US-AT ---------*/
 
 .contact-us-at {
@@ -522,7 +515,6 @@ textarea {
     width: 100%;
     padding-top: 20px;
 }
-
 
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
@@ -593,6 +585,7 @@ textarea {
     }
 
     /*--- LARGE WHAT WE DO ---*/
+    /*-- NONE --*/
 
 
     /*--- LARGE ABOUT US---*/
@@ -604,13 +597,11 @@ textarea {
         overflow: auto;
     }
 
-
     .about-us img {
         float: left;
         width: calc(50% - 30px);
         margin: auto;
     }
-
 
     .about-us h2,
     .about-us p {
@@ -720,6 +711,7 @@ textarea {
 
     /*-- ABOUT-FARM.html --*/
     /*----- LARGE HERO-ABOUT -----*/
+
     .hero-about {
         height: 100%;
     }

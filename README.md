@@ -69,12 +69,17 @@
 - Heading: “What we do”
 - Paragraph: Use paragraph on original website or Use AI to create some contents
 
-#### About us Section
+#### About us section
 
 - Heading: “About us”
 - Image: Use from gallery
 - Paragraph: Use paragraph on original website or Use AI to create some contents
 - Link to About the farm Page: "Read more"
+
+#### Opening hours section
+
+- Heading: Farmstand opening hours
+- Table of opening hours
 
 #### Call-to-Action
 
