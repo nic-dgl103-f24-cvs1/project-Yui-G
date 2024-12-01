@@ -105,7 +105,7 @@ header li a:hover {
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/farm-img.jpg");
     background-size: cover;
-    height: 500px;
+    height: 55vh;
     text-align: center;
 }
 
@@ -115,7 +115,7 @@ header li a:hover {
 }
 
 .hero h1 {
-    padding-top: 300px;
+    padding-top: 190px;
     font-size: 3.0rem;
     text-transform: capitalize;
     color: white;
@@ -318,7 +318,7 @@ footer address {
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/vegetables.jpg);
     background-size: cover;
-    height: 40vh;
+    height: 30vh;
     text-align: center;
     color: white;
 }
@@ -329,8 +329,8 @@ footer address {
 }
 
 .hero-about h1 {
-    padding-top: 40px;
-    font-size: 3.0rem;
+    padding-top: 30px;
+
     text-transform: capitalize;
 }
 
@@ -579,10 +579,9 @@ textarea {
         margin: auto;
     }
 
-    .hero-contents h1,
-    .hero-about-contents h1 {
+    .hero-contents h1 {
         font-size: 6.6rem;
-
+        padding-top: 350px;
     }
 
     .hero-contents .hero-contents p {
@@ -718,18 +717,19 @@ textarea {
     /*-- ABOUT-FARM.html --*/
     /*----- LARGE HERO-ABOUT -----*/
 
-    .hero-about {
-        height: 100%;
-    }
-
     .hero-about-contents {
         width: 1130px;
         margin: auto;
-        padding: 50px;
+        padding: 30px 50px;
+    }
+
+    .hero-about-contents h1 {
+        font-size: 6.6rem;
         padding-top: 20px;
     }
 
     .hero-about-contents p {
+        margin: 0;
         padding: 20px 70px;
     }
 
