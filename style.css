@@ -160,15 +160,22 @@ header li a:hover {
 
 .about-us p {
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 15px;
 }
 
 .about-us a {
-    width: 100px;
-    margin-right: 240px;
     text-transform: uppercase;
-    color: #3D5C23;
-    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    background-color: #3D5C23;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.about-us a:hover {
+    background-color: #EAFBDF;
+    border: 1px solid #132a13;
+    color: #132a13;
 }
 
 /*--------- OPENING-HOURS ---------*/
