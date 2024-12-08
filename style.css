@@ -1,0 +1,838 @@
+/*-------- GLOBAL STYLES ---------*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*-------- UTILITY ---------*/
+
+.content-width {
+    width: 330px;
+    margin: auto;
+}
+
+/*-- INDEX.html --*/
+/*--- MOBILE ---*/
+/*-------- HEADER ---------*/
+header {
+    display: flex;
+    height: 80px;
+    background-color: #3D5C23;
+}
+
+header img {
+    margin: auto 20px;
+    width: 70px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.toggle {
+    padding: 30px;
+    align-self: flex-end;
+    position: absolute;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px 0 10px 0;
+    display: none;
+}
+
+header ul li {
+    width: 120px;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #3D5C23;
+    cursor: pointer;
+}
+
+header li:visited {
+    color: #132a13;
+}
+
+header li:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
+}
+
+header li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
+}
+
+.show-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*------- HERO ---------*/
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/farm-img.jpg");
+    background-size: cover;
+    height: 55vh;
+    text-align: center;
+}
+
+.hero-contents {
+    width: 330px;
+    margin: auto;
+}
+
+.hero h1 {
+    padding-top: 190px;
+    font-size: 3.0rem;
+    text-transform: capitalize;
+    color: white;
+    align-items: center;
+}
+
+.hero p {
+    padding: 5px 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/*-------- WHAT-WE-DO ---------*/
+
+.what-we-do {
+    background-color: #3D5C23;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*--------- ABOUT US ---------*/
+
+.about-us {
+    width: 330px;
+    margin: auto;
+    padding: 50px 0;
+    color: #132a13;
+    text-align: center;
+}
+
+.about-us h2,
+.about-us p {
+    text-align: left;
+}
+
+.about-us img {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.about-us p {
+    margin: 0;
+    padding: 10px 0 15px;
+}
+
+.about-us a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #3D5C23;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.about-us a:hover {
+    background-color: #EAFBDF;
+    border: 1px solid #132a13;
+    color: #132a13;
+}
+
+/*--------- OPENING-HOURS ---------*/
+
+.opening-hours {
+    width: 330px;
+    margin: 0 auto 40px;
+    padding: 30px 0;
+    border: 3px solid #3D5C23;
+    border-radius: 15px;
+    text-align: center;
+    color: #132a13;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 7px;
+}
+
+caption {
+    padding-top: 10px;
+}
+
+th,
+td {
+    border-bottom: 2px solid #3D5C23;
+    padding: 7px 5px;
+    text-transform: capitalize;
+    width: 30%;
+}
+
+/*--------- CALL TO ACTION ---------*/
+
+.call-to-action {
+    width: 330px;
+    height: 300px;
+    margin: 0 auto 30px;
+    background-color: #3D5C23;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 3.0rem;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    background-color: #EAFBDF;
+    color: #132a13;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.call-to-action a:hover {
+    background-color: #3D5C23;
+    border: 1px solid #EAFBDF;
+    color: white;
+}
+
+/*--------- FOTTER ---------*/
+
+footer {
+    background-color: #3D5C23;
+    text-align: center;
+    color: #132a13;
+}
+
+footer img {
+    width: 100px;
+    margin: 20px auto 0;
+}
+
+footer nav {
+    width: 330px;
+    margin: auto;
+}
+
+footer ul {
+    padding-left: 0;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+footer li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+footer a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer nav a:hover {
+    background-color: #EAFBDF;
+    color: #132a13;
+}
+
+footer address {
+    width: 70%;
+    margin: auto;
+    line-height: 35px;
+    color: white;
+    text-align: left;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+.copywrite,
+.disclaimer {
+    border-top: 1px solid white;
+    color: white;
+    width: 330px;
+    margin: auto;
+}
+
+.disclaimer p {
+    margin: 0;
+    padding: 20px 0;
+}
+
+/*-- ABOUT-FARM.html --*/
+/*--- MOBILE ---*/
+/*--------- HERO ---------*/
+
+.hero-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/vegetables.jpg);
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    color: white;
+}
+
+.hero-about-contents {
+    width: 330px;
+    margin: auto;
+}
+
+.hero-about h1 {
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.hero-about p {
+    padding: 0 20px;
+}
+
+/*--------- HOW WE GROW --------*/
+
+.how-we-grow {
+    width: 330px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.how-we-grow h2,
+.how-we-grow h3 {
+    text-align: left;
+    color: #3D5C23;
+}
+
+.how-we-grow iframe {
+    width: 300px;
+    padding: 20px 20px 10px;
+    border: none;
+}
+
+.how-we-grow h3 {
+    padding-top: 10px;
+    border-bottom: 2px solid #3D5C23;
+}
+
+.how-we-grow p {
+    text-align: left;
+    line-height: 25px;
+    color: #132a13;
+}
+
+/*--------- HOW-TO-SHOP ---------*/
+
+.how-to-shop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/farmstand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    color: white;
+    line-height: 25px;
+}
+
+.shop-with-us {
+    width: 330px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.shop-with-us p {
+    padding-bottom: 15px;
+}
+
+.shop-with-us a {
+    padding: 10px 30px;
+    background-color: #EAFBDF;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #132a13;
+}
+
+.shop-with-us a:hover {
+    background-color: #132a13;
+    border: 1px solid #EAFBDF;
+    color: white;
+}
+
+/*-- CONTACT.html --*/
+/*--- MOBILE ---*/
+/*-------- HERO ---------*/
+
+.hero-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/pumpkin.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh
+}
+
+.hero-contact-contents h1 {
+    font-size: 3.0rem;
+}
+
+.hero-contact-contents {
+    width: 330px;
+    margin: auto;
+    padding: 45px 0;
+    color: white;
+}
+
+/*--------- CONTACT-US ---------*/
+
+.contact-us {
+    width: 330px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.contact-us h2 {
+    color: #3D5C23;
+}
+
+.contact-us form {
+    border: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 20px;
+    padding: 0;
+}
+
+legend {
+    display: none;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    color: #3D5C23;
+    text-align: left;
+    padding: 5px;
+}
+
+input {
+    border: 1px solid #132a13;
+    border-radius: 3px;
+    background-color: #faf8f7;
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: #faf8f7;
+    height: 100px;
+}
+
+.submit {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.submit input {
+    padding: 5px 20px;
+    background-color: #3D5C23;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background-color: #EAFBDF;
+    border: 1px solid #132a13;
+    color: #132a13;
+}
+
+/*--------- CONTACT-US-AT ---------*/
+
+.contact-us-at {
+    background-color: #EAFBDF;
+}
+
+.details {
+    width: 330px;
+    margin: auto;
+    padding: 30px 0;
+    color: #132a13;
+}
+
+.details h2 {
+    padding-bottom: 20px;
+}
+
+.details address {
+    line-height: 30px;
+}
+
+.details iframe {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+/*-- INDEX.html --*/
+@media only screen and (min-width: 1200px) {
+
+    h2 {
+        font-size: 5.0rem;
+    }
+
+    h3 {
+        font-size: 4.0rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+    }
+
+    .content-width {
+        width: 1130px;
+    }
+
+    /*--- LARGE HEADER---*/
+
+    header {
+        height: 100px;
+    }
+
+    header img {
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #nav-items {
+        display: flex;
+        padding-top: 25px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #nav-items li {
+        width: 20%;
+        text-align: center;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    /*--- LARGE HERO ---*/
+    .hero {
+        height: 100%;
+    }
+
+    .hero-contents {
+        width: 1130px;
+        margin: auto;
+    }
+
+    .hero-contents h1 {
+        font-size: 6.6rem;
+        padding-top: 350px;
+    }
+
+    .hero-contents p {
+        margin: 0;
+        padding: 30px 200px 50px;
+    }
+
+    /*--- LARGE WHAT WE DO ---*/
+    /*-- NONE --*/
+
+
+    /*--- LARGE ABOUT US---*/
+
+    .about-us {
+        width: 1130px;
+        margin: auto;
+        padding: 60px 0;
+        overflow: auto;
+    }
+
+    .about-us img {
+        float: left;
+        width: calc(50% - 30px);
+        margin: auto;
+    }
+
+    .about-us h2,
+    .about-us p {
+        float: right;
+        width: calc(50% - 30px);
+    }
+
+    .about-us p {
+        padding-top: 20px;
+        line-height: 45px;
+    }
+
+    .about-us a {
+        width: 150px;
+        margin: 0;
+    }
+
+    /*--- LARGE OPENING-HOURS ---*/
+
+    .opening-hours {
+        width: 1130px;
+        margin: 0 auto 40px;
+    }
+
+    table {
+        width: 80%;
+        margin: auto;
+        border-spacing: 15px;
+    }
+
+    caption {
+        font-size: 2.4rem;
+        padding-top: 15px;
+    }
+
+    th,
+    td {
+        font-size: 2.4rem;
+    }
+
+    /*--- LARGE CALL TO ACTION ---*/
+
+    .call-to-action {
+        width: 1130px;
+    }
+
+    .call-to-action h2 {
+        font-size: 5.0rem;
+    }
+
+    .call-to-action a {
+        font-size: 3.0rem;
+    }
+
+    /*--- LARGE FOOTER ---*/
+    .footer-contents {
+        width: 1130px;
+        margin: auto;
+        text-align: left;
+        display: flex;
+    }
+
+    footer img {
+        width: 150px;
+        height: 100%;
+        margin: 20px;
+    }
+
+    footer nav {
+        width: 30%;
+        margin: 0;
+        display: flex;
+        padding: 30px;
+    }
+
+    footer ul {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    footer li {
+        font-size: 2.4rem;
+    }
+
+    footer address {
+        width: 40%;
+        margin-right: 10px;
+        font-size: 2.0rem;
+        line-height: 40px;
+    }
+
+    .social-media {
+        width: 10%;
+        padding-top: 30px;
+    }
+
+    .copywrite,
+    .disclaimer {
+        width: 1130px;
+        margin: auto;
+    }
+
+    .copywrite p,
+    .disclaimer p {
+        font-size: 1.6rem;
+    }
+
+    /*-- ABOUT-FARM.html --*/
+    /*----- LARGE HERO-ABOUT -----*/
+
+    .hero-about {
+        height: 100%;
+    }
+
+    .hero-about-contents {
+        width: 1130px;
+        margin: auto;
+        padding: 30px 50px;
+    }
+
+    .hero-about-contents h1 {
+        font-size: 6.6rem;
+        padding-top: 20px;
+    }
+
+    .hero-about-contents p {
+        margin: 0;
+        padding: 20px 70px;
+    }
+
+    /*----- LARGE HOW-WE-GROW -----*/
+
+    .how-we-grow {
+        width: 1130px;
+        margin: auto;
+        padding: 40px 0;
+    }
+
+    .how-we-grow iframe {
+        width: 50%;
+        padding-top: 40px;
+    }
+
+    .how-we-grow p {
+        line-height: 40px;
+    }
+
+    /*----- LARGE HOW-TO-SHOP ------*/
+
+    .how-to-shop {
+        background-position: center;
+        width: 100%;
+    }
+
+    .shop-with-us {
+        width: 1130px;
+        margin: auto;
+        padding: 50px 0;
+    }
+
+    .shop-with-us p {
+        width: 80%;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+
+    .shop-with-us a {
+        font-size: 3.0rem;
+    }
+
+    /*------ CONTACT.html -------*/
+    /*---- LARGE HERO-CONTACT ----*/
+
+    .hero-contact {
+        height: 100%;
+    }
+
+    .hero-contact-contents {
+        width: 1130px;
+        margin: auto;
+        padding: 80px 60px;
+    }
+
+    .hero-contact-contents h1 {
+        font-size: 6.6rem;
+    }
+
+    /*---- LARGE CONTACT ----*/
+
+    .contact {
+        display: flex;
+    }
+
+    .contact-us,
+    .contact-us-at {
+        margin: 30px 0;
+        padding: 0 30px;
+    }
+
+    .contact-us {
+        width: 50%;
+        padding: 30px;
+    }
+
+    .contact-us h2 {
+        text-align: center;
+    }
+
+    .contact-us-at {
+        width: 50%;
+        background-color: white;
+        border-left: 1px solid #132a13;
+    }
+
+    .submit {
+        width: 30%;
+    }
+
+    .submit input {
+        padding: 13px 10px;
+        font-size: 1.8rem;
+        border-radius: 15px;
+    }
+
+    .details {
+        text-align: center;
+    }
+
+    .details h2 {
+        color: #3D5C23;
+    }
+
+
+}

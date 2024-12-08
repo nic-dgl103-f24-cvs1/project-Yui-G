@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+        <nav>
+            <ul id="nav-items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-farm.html">about the farm</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" style="color:white;"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-contact">
+            <div class="hero-contact-contents">
+                <h1>Get in touch with us</h1>
+                <p>Whether you have a question, feedback, or just want to say hello, we're here for you.</p>
+                <!-- Written by ChatGPT -->
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact-us">
+                <h2>Contact us</h2>
+                <form action="#" method="post">
+                    <fieldset class="customer-info">
+                        <legend>Customer details</legend>
+                        <label>
+                            First name
+                            <input type="text" name="firstname" required>
+                        </label>
+                        <label>
+                            Last name
+                            <input type="text" name="lastname" required>
+                        </label>
+                        <label>
+                            Company
+                            <input type="text" name="company">
+                        </label>
+                        <label>
+                            E-mail
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            Phone number
+                            <input type="text" name="phonenumber">
+                        </label>
+                        <label>
+                            Message
+                            <textarea name="message"></textarea>
+                        </label>
+                    </fieldset>
+                    <div class="submit">
+                        <input type="submit" name="message-submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+            <section class="contact-us-at">
+                <div class="details">
+                    <h2>Contact us at:</h2>
+                    <address>
+                        kehlervegetables@gmail.com<br>
+                        (250) 202-3236<br>
+                        8083 N Island Highway, Black Creek, BC,V9J1G7
+                    </address>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.1785899566253!2d-125.12726002368328!3d49.82486833220973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881ba4e1337c15%3A0x74d901532b56595!2s8083%20N%20Island%20Hwy%2C%20Comox-Strathcona%20C%2C%20BC!5e1!3m2!1sja!2sca!4v1732867292029!5m2!1sja!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about-farm.html">about the farm</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <address>
+                Address: <br>
+                8083 N Island Highway, Black Creek, BC,V9J1G7<br>
+                Phone number: (250) 202-3236<br>
+                Email: kehlervegetables@gmail.com
+            </address>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.instagram.com/kehlervegetables/" title="Instagram" target="_blank"><i
+                                class="fa fa-instagram" style="color: white;"></i></a></li>
+                    <li><a href="https://www.facebook.com/kehlervegetables" title="Facebook" target="_blank"><i
+                                class="fa fa-facebook-square" style="color: white;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>© 2024 Kehler Vegetable Company. All rights reserved.</p>
+        </div>
+        <div class="disclaimer">
+            <p>
+                This is a fictional website that was designed and coded as an educational exercise. It is not intended
+                to be seen outside of the class environment. None of the content and images were approved by the
+                business owner.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the farm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+        <nav>
+            <ul id="nav-items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-farm.html">about the farm</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" style="color:white;"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-about">
+            <div class="hero-about-contents">
+                <h1>Growing great things for our local community</h1>
+                <p>We are committed to providing the most nutritious, locally grown and sustainable produce.
+                </p>
+            </div>
+        </section>
+        <section class="how-we-grow">
+            <h2>How we grow?</h2>
+            <!-- This vedio is not related to Kehler vegetable company -->
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/NgqHcX-1Lh8?si=cxd0s8LlOpWpo8oi&amp;start=14"
+                title="Farmig life of YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Systems</h3>
+            <p>Our farm runs on a best practice system, we use a combination of management that ensures our produce is
+                the highest quality possible. We are not currently certified organic but we do grow all produce and
+                vegetables organically. Through the use of mechanical and cultural management we keep our farm pests
+                under control. </p>
+            <h3>Techniques</h3>
+            <p>
+                Black plastic mulch, flame weeders, roto-tiller and old fashion weeding techniques are
+                used to keep encroaching weeds down. Row covers help to keep insect pests out of our susceptible crops
+                and a good crop rotation plan ensures that we are keeping pests at a minimum from season to season.
+                Fertility is managed here by adding well composted cattle manure as well as our own manure produced by
+                our laying hen flock. Supplemental organic fertilizer is added as needed to our drip irrigation system
+                throughout the season.</p>
+        </section>
+        <section class="how-to-shop">
+            <div class="shop-with-us">
+                <h2>How to shop with us?</h2>
+                <p>Our little farmstand is located right at the farm gate, it is run on the honour system with a small
+                    amount of change available.<br>
+                    Hours run seasonally Wed-Fri 10-5pm, Saturday 9-noon.<br>
+                    Our produce is also available through wholesale order.
+                    Please contact us for more information.
+                </p>
+                <a href="contact.html">Contact</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about-farm.html">about the farm</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <address>
+                Address: <br>
+                8083 N Island Highway, Black Creek, BC,V9J1G7<br>
+                Phone number: (250) 202-3236<br>
+                Email: kehlervegetables@gmail.com
+            </address>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.instagram.com/kehlervegetables/" title="Instagram" target="_blank"><i
+                                class="fa fa-instagram" style="color: white;"></i></a></li>
+                    <li><a href="https://www.facebook.com/kehlervegetables" title="Facebook" target="_blank"><i
+                                class="fa fa-facebook-square" style="color: white;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>© 2024 Kehler Vegetable Company. All rights reserved.</p>
+        </div>
+        <div class="disclaimer">
+            <p>
+                This is a fictional website that was designed and coded as an educational exercise. It is not intended
+                to be seen outside of the class environment. None of the content and images were approved by the
+                business owner.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+</body>
+
+</html>

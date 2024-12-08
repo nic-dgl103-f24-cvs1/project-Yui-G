@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+        <nav>
+            <ul id="nav-items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about-farm.html">about the farm</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" style="color:white;"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-contents">
+                <h1>kehler vegetable company</h1>
+                <p>Located in the heart of Black Creek, our small family farm is growing great things for our local
+                    community.</p>
+            </div>
+        </section>
+        <section class="what-we-do">
+            <div class="content-width">
+                <h2>What we do</h2>
+                <p>Kehler Vegetable Company is a small mixed market farm of vegetables, berries and eggs from our
+                    pasture located on a 20 acre farm in the Comox Valley.
+                </p>
+            </div>
+        </section>
+        <section class="about-us">
+            <h2>About us</h2>
+            <img src="images/family.jpg" width="300" alt="Picture of family">
+            <p>We are family-owned and operated farm nestled in the heart of Black Creek. We take pride in the
+                generations of hard work and dedication that have shaped our land into a thriving and
+                sustainable
+                farm.
+            </p> <!-- Written by ChatGPT -->
+            <p><a href="about-farm.html">To learn more about us
+                </a></p>
+        </section>
+        <section class="opening-hours">
+            <h2>Farmstand opening hours</h2>
+            <table>
+                <caption>Run seasonally, Closed for winter</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">sun - tue</th>
+                        <th scope="col">wed - fri</th>
+                        <th scope="col">sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>closed</td>
+                        <td>10am - 5pm</td>
+                        <td>9am - 12pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="call-to-action">
+            <h2>Get in touch with us</h2>
+            <a href="contact.html">Contact</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <img src="images/logo.png" width="200" alt="Logo of kehler vegetable company">
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about-farm.html">about the farm</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <address>
+                Address: <br>
+                8083 N Island Highway, Black Creek, BC,V9J1G7<br>
+                Phone number: (250) 202-3236<br>
+                Email: kehlervegetables@gmail.com
+            </address>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.instagram.com/kehlervegetables/" title="Instagram" target="_blank"><i
+                                class="fa fa-instagram" style="color: white;"></i></a></li>
+                    <li><a href="https://www.facebook.com/kehlervegetables" title="Facebook" target="_blank"><i
+                                class="fa fa-facebook-square" style="color: white;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p>© 2024 Kehler Vegetable Company. All rights reserved.</p>
+        </div>
+        <div class="disclaimer">
+            <p>
+                This is a fictional website that was designed and coded as an educational exercise. It is not intended
+                to be seen outside of the class environment. None of the content and images were approved by the
+                business owner.
+            </p>
+        </div>
+
+    </footer>
+
+    <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+</body>
+
+</html>
